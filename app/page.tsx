@@ -65,22 +65,24 @@ export default function Home() {
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
-          <p>I love what good software is capable of delivering. Whether it's designing tools that empower people or developing applications that simplify daily tasks,
+          <p>I love what good software is capable of delivering. Whether it's developing tools that empower people or developing applications that simplify daily tasks,
             there's a unique satisfaction I get from bringing solutions to life. </p>
           <p>This passion stems not only from my love for technology but also from the challenges
             presented in the realm of problem-solving. I'm eager to harness my enthusiasm and skills
             to make meaningful contributions in the ever-evolving world of technology.</p>
         </div>
 
-        <div className="xl:col-span-3">
-          <h3 className="pt-4 text-center text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-13">
+        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-10">
+          <h3 className="text-center text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-13">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent">
               Skills
             </span>
           </h3>
           <div className="flex justify-center">
-            <div className="mb-5 pt-10 grid grid-cols-3 gap-10">
-              <Image src="/javascript.png" alt="JavaScript Logo" width={50} height={50} />
+            <div className="mb-5 grid grid-cols-3 gap-10 items-center">
+              <a href="https://www.javascript.com/about" target="_blank">
+                <Image src="/javascript.png" alt="JavaScript Logo" width={50} height={50} />
+              </a>
               <Image src="/React.png" alt="React Logo" width={50} height={50} />
               <Image src="/nextjs.png" alt="Next.js Logo" width={50} height={50} />
               <Image src="/html.png" alt="Html Logo" width={50} height={50} />
