@@ -16,8 +16,8 @@ export default function CustomCursor() {
     }, []);
 
     const cursorStyles = {
-        width: '25px',
-        height: '25px',
+        width: '35px',
+        height: '35px',
         border: '3px solid purple',  // Style as you want
         borderRadius: '50%',
         position: 'absolute',
