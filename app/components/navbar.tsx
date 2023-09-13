@@ -30,7 +30,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/"
                         ? "border-blue-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     Home
@@ -41,7 +41,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/projects"
                         ? "border-blue-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     Projects
@@ -52,7 +52,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/experience"
                         ? "border-blue-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     Experience
