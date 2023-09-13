@@ -83,10 +83,14 @@ export default function Home() {
               <a href="https://www.javascript.com/about" target="_blank">
                 <Image src="/javascript.png" alt="JavaScript Logo" width={50} height={50} />
               </a>
-              <Image src="/React.png" alt="React Logo" width={50} height={50} />
-              <Image src="/nextjs.png" alt="Next.js Logo" width={50} height={50} />
+              <a href="https://react.dev/" target="_blank">
+                <Image src="/React.png" alt="React Logo" width={50} height={50} />
+              </a>
+              <a href="https://nextjs.org/" target="_blank">
+                <Image src="/nextjs.png" alt="Next.js Logo" width={50} height={50} />
+              </a>           
               <Image src="/html.png" alt="Html Logo" width={50} height={50} />
-              <Image src="/css.png" alt="CSS Logo" width={50} height={50} />
+              <Image src="/css.png" alt="CSS Logo" width={50} height={50} />  
             </div>
           </div>
         </div>
