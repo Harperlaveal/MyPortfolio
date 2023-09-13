@@ -79,7 +79,7 @@ export default function Home() {
             </span>
           </h3>
           <div className="flex justify-center">
-            <div className="pt-10 grid grid-cols-3 gap-10">
+            <div className="mb-5 pt-10 grid grid-cols-3 gap-10">
               <Image src="/javascript.png" alt="JavaScript Logo" width={50} height={50} />
               <Image src="/React.png" alt="React Logo" width={50} height={50} />
               <Image src="/nextjs.png" alt="Next.js Logo" width={50} height={50} />

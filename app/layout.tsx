@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './components/navbar'
+import Footer from './components/footer'
 import { Provider } from './components/Provider'
 import CustomCursor from './components/CustomCursor'
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           </main>
       </Provider>
       </body>
+      <Footer />
     </html>
   )
 }

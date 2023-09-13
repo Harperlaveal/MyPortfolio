@@ -40,7 +40,7 @@ export default async function Projects() {
         </h1>
             </div>
 
-            <div className="border-t border-gray-200 dark:border-gray-700 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
+            <div className="mb-5 border-t border-gray-200 dark:border-gray-700 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
                 {data.map((project) => (
                     <article key={project._id} className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white
                     shadow-lg dark:bg-black dark:shadow-blue-300 shadow-blue-300">

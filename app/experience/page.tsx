@@ -46,7 +46,7 @@ import { client } from "../lib/sanity";
           </span>
         </h1>
         </div>
-        <div className="border-t border-gray-200 dark:border-gray-700 items-center pt-4 flex flex-col gap-y-12">
+        <div className="mb-10 border-t border-gray-200 dark:border-gray-700 items-center pt-4 flex flex-col gap-y-12">
         {data.map((job) => (
           <div
             key={job._id}
