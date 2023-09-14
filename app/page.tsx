@@ -65,10 +65,10 @@ export default function Home() {
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
-          <p>I love what good software is capable of delivering. Whether it's developing tools that empower people or developing applications that simplify daily tasks,
-            there's a unique satisfaction I get from bringing solutions to life. </p>
+          <p>I love what good software is capable of delivering. Whether it&apos;s developing tools that empower people or developing applications that simplify daily tasks,
+            there&apos;s a unique satisfaction I get from bringing solutions to life. </p>
           <p>This passion stems not only from my love for technology but also from the challenges
-            presented in the realm of problem-solving. I'm eager to harness my enthusiasm and skills
+            presented in the realm of problem-solving. I&apos;m eager to harness my enthusiasm and skills
             to make meaningful contributions in the ever-evolving world of technology.</p>
         </div>
 
