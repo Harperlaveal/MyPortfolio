@@ -49,7 +49,7 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="harper.doak@gmail.com" target="_blank">
+              <a href="mailto:harper.doak@gmail.com" target="_blank">
                 <svg
                   viewBox="0 0 1024 1024"
                   fill="currentColor"
