@@ -46,7 +46,7 @@ import { client } from "../lib/sanity";
                     !
                 </h1>
         </div>
-        <div className="mb-10 border-t border-gray-200 dark:border-gray-700 items-center pt-4 flex flex-col gap-y-12">
+        <div className=" items-center pt-4 flex flex-col gap-y-12">
     {data.sort((a, b) => new Date(b.endDate).getTime() - new Date(a.endDate).getTime()).map((job) => (
         <div
             key={job._id}
@@ -55,7 +55,7 @@ import { client } from "../lib/sanity";
             <a
                 href={job.url}
                 rel="noreferrer noopener"
-                className="border border-black min-h-[60px] min-w-[60px] rounded-md overflow-clip relative"
+                className=" min-h-[60px] min-w-[60px] rounded-md overflow-clip relative"
             >
                 <Image
                     src={job.logo}
