@@ -5,40 +5,37 @@ import { useState } from 'react'
 import Me from '@/public/HarperD.jpg'
 import MeHover from '@/public/HoverMe.png'
 
-
-
-
 export default function Home() {
   const [imgSrc, setImgSrc] = useState(Me);
-  const [transitionClass, setTransitionClass] = useState('slide');
+  const [opacityClass, setOpacityClass] = useState('opaque');
 
-  const handleMouseEnter = () => {
-    setTransitionClass('slide-out-left');
-    setTimeout(() => {
+const handleMouseEnter = () => {
+  setOpacityClass('transparent');
+  setTimeout(() => {
     setImgSrc(MeHover);
-    setTransitionClass('slide');
-    }, 300); // this matches the transition time in the CSS
-  };
-  
-  const handleMouseLeave = () => {
-    setTransitionClass('slide-out-left');
-    setTimeout(() => {
+    setOpacityClass('opaque');
+  }, 300); // this matches the transition time in the CSS
+};
+
+const handleMouseLeave = () => {
+  setOpacityClass('transparent');
+  setTimeout(() => {
     setImgSrc(Me);
-    setTransitionClass('slide');
-    }, 300);
-  };
+    setOpacityClass('opaque');
+  }, 300);
+};
 
   return (
     <div>
       <div className="space-y-2 pt-5 pb-8 md:space-x-5">
-        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
+      <h1 className="text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
         sm:leading-10 md:text-6xl md:leading-13">
-          Hello, I&apos;m{" "}
-          <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent shimmer-effect">
-            Harper
-          </span>
-          !
-        </h1>
+    Hello, I&apos;m{" "}
+    <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent shimmer-effect">
+        Harper
+    </span>
+    !
+</h1>
       </div>
 
       <div className="border-t border-gray-200 dark:border-gray-700 items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -47,7 +44,7 @@ export default function Home() {
           <Image 
           alt="Picture of me"
           src={imgSrc}
-          className={`h-48 w-48 rounded-full object-cover object-top ${transitionClass}`}
+          className={`h-48 w-48 rounded-full object-cover object-top ${opacityClass}`}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
       />
