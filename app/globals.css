@@ -2,8 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes shimmer {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+.shimmer-effect {
+    background-image: linear-gradient(90deg, #3B82F6, #9333EA, #DC2626, #3B82F6, #9333EA, #DC2626);
+    background-size: 200% 100%;
+    animation: shimmer 10.0s infinite linear;
+}
+
 body {
     cursor: none;
 }
+
+.slide {
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.slide-out-left {
+    transform: translateX(-100%);
+}
+
 
 
