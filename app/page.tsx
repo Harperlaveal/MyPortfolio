@@ -28,8 +28,8 @@ const handleMouseLeave = () => {
   return (
     <div>
       <div className="space-y-2 pt-5 pb-8 md:space-x-5">
-      <h1 className="text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
-        sm:leading-10 md:text-6xl md:leading-13">
+      <h1 className="text-center text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
+        sm:leading-10 sm:text-center md:text-6xl md:leading-13 md:text-center">
     Hello, I&apos;m{" "}
     <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent shimmer-effect">
         Harper

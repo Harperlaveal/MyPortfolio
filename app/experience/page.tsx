@@ -37,14 +37,14 @@ import { client } from "../lib/sanity";
     return (
         <div>
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
-        sm:leading-10 md:text-6xl md:leading-13">
-          My{" "}
-          <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600
-          bg-clip-text text-transparent">
-            Experience
-          </span>
-        </h1>
+        <h1 className="text-center text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl
+        sm:leading-10 sm:text-center md:text-6xl md:leading-13 md:text-center">
+                    My{" "}
+                    <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent shimmer-effect">
+                        Experience
+                    </span>
+                    !
+                </h1>
         </div>
         <div className="mb-10 border-t border-gray-200 dark:border-gray-700 items-center pt-4 flex flex-col gap-y-12">
         {data.map((job) => (
