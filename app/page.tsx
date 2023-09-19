@@ -34,7 +34,6 @@ const handleMouseLeave = () => {
     <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-red-600 bg-clip-text text-transparent shimmer-effect">
         Harper
     </span>
-    !
 </h1>
       </div>
 
